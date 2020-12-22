@@ -1,0 +1,125 @@
+@font-face{
+    src: url('/src/fonts/Elianto-Regular.otf');
+    font-family: 'Elianto' ;
+}
+
+/* NavBar */
+.no-decorate{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-title{
+    font-family: 'Elianto' !important;
+}
+
+/* HeroeCard */
+.card-root{
+    display: flex;
+    min-width: 310px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card-button{
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Screen Marvel/DC */
+
+.info-screen{
+    margin: 3%;
+    margin-top: 4%;
+}
+
+.screen-title{
+    font-family: 'Elianto' !important;
+}
+
+/* Screen Card info */
+
+.screen-card{
+    max-width: 345px;
+    max-height: 500px;
+    height: 100%;
+}
+
+/* Screen Search alert */
+
+.search-alert{
+    margin: 15px;
+}
+
+/* Menu icons */
+
+.menu-icon{
+    width: 40px;
+}
+
+/* heroe card button view more */
+.button-no-decorate{
+    text-decoration: none;
+    color: black;
+}
+
+/* HomeScreen background */
+
+.homescreen-img{
+    /* max-width:100%; */
+    width: 50vw;
+    height: 80vh;
+    object-fit: cover;
+    position: relative;
+    top: -25px
+}
+
+/* HomeScreen carousel */
+
+.carousel-img{
+    position: relative; 
+    width: 100%;
+}
+
+.carousel-img img{
+    object-fit: cover;
+    width: 100vw;
+    height: 75vh;
+}
+
+.carousel-img h2{
+    position: absolute; 
+    top: 0vw; 
+    left: 0; 
+    max-width: 100%;
+}
+
+.carousel-img h2 span { 
+    color: white; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;  
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+}
+
+@media screen and (min-width: 0px){
+    .screen-card-image{
+        min-height: 400px;
+        max-height: 600px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .screen-card-image{
+        width: 100%;
+        object-fit: contain;
+    }
+}
