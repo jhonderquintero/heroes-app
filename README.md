@@ -8,7 +8,8 @@
 
 ## General info
 
-This project is a SPA (single page application), developed in React.
+This project is a SPA (SINGLE PAGE APPLICATION) developed in React.js library.  
+This page applied good practices in design, such as responsive, first mobile and Material design.  
 
 ## Technologies
 
