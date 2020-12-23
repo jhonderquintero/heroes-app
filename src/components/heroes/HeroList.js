@@ -13,7 +13,7 @@ export const HeroList = ({publisher}) => {
             {
                 heroes.map(hero =>(
                     <HeroeCard key={hero.id} 
-                    {...hero} link={`./assets/heroes/${hero.id}.jpg`} 
+                    {...hero} link={`${process.env.PUBLIC_URL}/assets/heroes/${hero.id}.jpg`} 
                     hero_is_from_api={false}
                     />
                 ))

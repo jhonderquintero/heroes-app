@@ -23,7 +23,7 @@ export const DrawerList = () => {
 
                 <ListItem button key={'marvel'}>
                     <ListItemIcon> 
-                        <img src='../assets/icons/marvel-comics.ico' alt="icon" className='menu-icon'>
+                        <img src={`${process.env.PUBLIC_URL}/assets/icons/marvel-comics.ico`} alt="icon" className='menu-icon'>
                         </img>
                     </ListItemIcon>
                     <Button variant="contained" color="primary">
@@ -37,7 +37,7 @@ export const DrawerList = () => {
 
                 <ListItem button key={'dc-comics'}>
                     <ListItemIcon> 
-                        <img src='../assets/icons/dc-comics.ico' alt="icon" className='menu-icon'>
+                        <img src={`${process.env.PUBLIC_URL}/assets/icons/dc-comics.ico`} alt="icon" className='menu-icon'>
                         </img> 
                     </ListItemIcon>
                     <Button variant="contained" color="primary">

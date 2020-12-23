@@ -9,8 +9,7 @@ import {withWidth, Hidden} from '@material-ui/core'
 import TemporaryDrawer from './TemporaryDrawer';
 import '../../style/style.css'
 
-const NavBar = ({width}) => {
-    console.log(width);
+const NavBar = () => {
     return (
         <>
             <AppBar position="fixed" color="primary" 

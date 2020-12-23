@@ -36,7 +36,7 @@ export const HeroesScreen = ({history}) => {
                 <Grid container spacing={1}>
 
                     <Grid item sm={5} xs={5} className='screen-card'>
-                        <img src={`/assets/heroes/${heroId}.jpg`} className='screen-card-image' alt={superhero} />
+                        <img src={`${process.env.PUBLIC_URL}/assets/heroes/${heroId}.jpg`} className='screen-card-image' alt={superhero} />
                     </Grid>
 
                     <Grid item sm={7} xs={7}>

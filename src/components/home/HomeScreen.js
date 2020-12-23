@@ -11,19 +11,19 @@ export const HomeScreen = () => {
             name: "Marvel Comics",
             description: "Find your favorite superhero from our Marvel Comics database!",
             link: '/marvel',
-            image: './assets/images/marvel-img.png'
+            image: `${process.env.PUBLIC_URL}/assets/images/marvel-img.png`
         },
         {
             name: "DC Comics",
             description: "Find your favorite superhero from our DC Comics database!",
             link: '/dc',
-            image: './assets/images/dc-img.jpg'
+            image: `${process.env.PUBLIC_URL}/assets/images/dc-img.jpg`
         },
         {
             name: "Search",
             description: "Search for any superhero and get information about him!",
             link: '/search',
-            image: './assets/images/background.jpg'
+            image: `${process.env.PUBLIC_URL}/assets/images/background.jpg`
         }];
 
     return (
@@ -34,7 +34,7 @@ export const HomeScreen = () => {
                 }
             </Carousel>
         </div>
-    )
+    );
 };
 
 const Item = ({item}) =>{
